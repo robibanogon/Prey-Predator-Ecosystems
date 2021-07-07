@@ -7,14 +7,13 @@ plants-own[countdown]
 
 to setup
   clear-all
-  reset-ticks ; resets time
+  reset-ticks
   create-humans human_population
 
   ask humans
   [
     set size 1.5
     set color brown
-    ;; set shape "person"
     set shape one-of
     [
       "person business"
@@ -109,7 +108,6 @@ to eat-human
 end
 
 to grow-plants
-  ;; regrow every other 3 ticks
   if ticks mod 5  = 0 [
     sprout-plants 1 [
       set size 1.3
