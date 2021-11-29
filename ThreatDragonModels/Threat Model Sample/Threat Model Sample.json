@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 817,
-                "y": 216
+                "x": 857,
+                "y": 206
               },
               "angle": 0,
               "id": "dba282ef-0448-4467-9a3f-ff66a91e7c77",
@@ -464,8 +464,8 @@
                 "height": 100
               },
               "position": {
-                "x": 731,
-                "y": 4
+                "x": 842,
+                "y": 1
               },
               "angle": 0,
               "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e",
@@ -490,8 +490,8 @@
                 "height": 100
               },
               "position": {
-                "x": 624,
-                "y": 511
+                "x": 702,
+                "y": 423
               },
               "angle": 0,
               "id": "dc539d97-4884-4b8b-b378-897029b0c33d",
@@ -520,8 +520,8 @@
               },
               "vertices": [
                 {
-                  "x": 613,
-                  "y": 239
+                  "x": 640,
+                  "y": 248
                 }
               ],
               "id": "4e164983-9327-418d-8bdd-c241251ecdfa",
@@ -559,8 +559,8 @@
               },
               "vertices": [
                 {
-                  "x": 638,
-                  "y": 287
+                  "x": 666,
+                  "y": 284
                 }
               ],
               "id": "50c11eb5-b745-47e5-88d5-6b0b682867ce",
@@ -819,16 +819,12 @@
               },
               "vertices": [
                 {
-                  "x": 685,
+                  "x": 678,
                   "y": 28
                 },
                 {
-                  "x": 600,
-                  "y": 33
-                },
-                {
-                  "x": 450,
-                  "y": 51
+                  "x": 446,
+                  "y": 36
                 }
               ],
               "id": "d1bc19d9-f149-47eb-9e09-554ca4f8054c",
@@ -845,6 +841,52 @@
                 }
               ],
               "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e"
+              },
+              "target": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "vertices": [
+                {
+                  "x": 590,
+                  "y": 49
+                },
+                {
+                  "x": 442,
+                  "y": 85
+                }
+              ],
+              "id": "33984337-015e-4812-a846-50e71a2ff11b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.36926730181095285,
+                    "offset": 2.5326564506853764
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "send updater status",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
