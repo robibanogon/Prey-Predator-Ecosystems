@@ -260,7 +260,10 @@
               "id": "29ca8d6f-ba5f-4ae5-b66a-ec3a1c9b6c2f",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.38467436122385,
+                    "offset": 0.29751131966137284
+                  },
                   "attrs": {
                     "text": {
                       "text": "authorize",
@@ -304,7 +307,10 @@
               "id": "1f38735f-474a-47c8-9f26-b81464082366",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.653306107326971,
+                    "offset": -7.846710851284971
+                  },
                   "attrs": {
                     "text": {
                       "text": "browse/submit\nsearch string",
@@ -348,8 +354,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.2934410612666669,
-                    "offset": -4.309724696622972
+                    "distance": 0.421350067394319,
+                    "offset": 7.672351628040007
                   },
                   "attrs": {
                     "text": {
@@ -1552,6 +1558,64 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 345,
+                "y": 22
+              },
+              "target": {
+                "x": 356,
+                "y": 646
+              },
+              "vertices": [
+                {
+                  "x": 261,
+                  "y": 42
+                },
+                {
+                  "x": 139,
+                  "y": 285
+                },
+                {
+                  "x": 248,
+                  "y": 563
+                }
+              ],
+              "id": "bee48cd9-e614-4fb2-b79b-8422be64d97c",
+              "z": 41,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 420,
+                "y": 17
+              },
+              "target": {
+                "x": 586,
+                "y": 228
+              },
+              "vertices": [
+                {
+                  "x": 361,
+                  "y": 41
+                },
+                {
+                  "x": 390,
+                  "y": 127
+                },
+                {
+                  "x": 508,
+                  "y": 205
+                }
+              ],
+              "id": "dc144c41-57f4-4a51-8879-5028932da42e",
+              "z": 42,
+              "attrs": {}
             }
           ]
         },
