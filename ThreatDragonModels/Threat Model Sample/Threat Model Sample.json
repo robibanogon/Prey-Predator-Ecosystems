@@ -494,7 +494,7 @@
               },
               "position": {
                 "x": 633,
-                "y": 463
+                "y": 461
               },
               "angle": 0,
               "id": "dc539d97-4884-4b8b-b378-897029b0c33d",
@@ -1132,6 +1132,84 @@
                 }
               ],
               "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "dc539d97-4884-4b8b-b378-897029b0c33d"
+              },
+              "target": {
+                "id": "47289cbd-6883-4205-9026-44c3d1355117"
+              },
+              "vertices": [
+                {
+                  "x": 1047,
+                  "y": 480
+                }
+              ],
+              "id": "6b6bda3c-abee-44a6-8e70-f7cb21bb7530",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "send credentials",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 31,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "47289cbd-6883-4205-9026-44c3d1355117"
+              },
+              "target": {
+                "id": "dc539d97-4884-4b8b-b378-897029b0c33d"
+              },
+              "vertices": [
+                {
+                  "x": 997,
+                  "y": 446
+                }
+              ],
+              "id": "d98e0122-a579-432a-9433-92bdd30e7dad",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "send verification\nresults",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 32,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
