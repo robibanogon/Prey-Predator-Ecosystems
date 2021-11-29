@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 665,
-                "y": 1
+                "x": 656,
+                "y": 222
               },
               "angle": 0,
               "id": "dba282ef-0448-4467-9a3f-ff66a91e7c77",
@@ -56,7 +56,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Catalog\nBusiness\nComponent"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -294,7 +294,11 @@
               },
               "vertices": [
                 {
-                  "x": 101,
+                  "x": 85,
+                  "y": 346
+                },
+                {
+                  "x": 218,
                   "y": 321
                 }
               ],
@@ -331,11 +335,23 @@
               "target": {
                 "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 307,
+                  "y": 522
+                },
+                {
+                  "x": 402,
+                  "y": 501
+                }
+              ],
               "id": "670e9551-f890-43e8-b269-195265dfb3d3",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.38243723594249157,
+                    "offset": -4.51345169570453
+                  },
                   "attrs": {
                     "text": {
                       "text": "submit credentials",
@@ -346,6 +362,91 @@
                 }
               ],
               "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "target": {
+                "id": "9b275604-faef-416a-91a8-819891b539ac"
+              },
+              "vertices": [
+                {
+                  "x": 285,
+                  "y": 338
+                },
+                {
+                  "x": 143,
+                  "y": 362
+                }
+              ],
+              "id": "ccca7500-28e9-4fc5-84ef-45e11c740531",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.3531810530106196,
+                    "offset": -2.124153892841539
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "display catalog",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "target": {
+                "id": "9b275604-faef-416a-91a8-819891b539ac"
+              },
+              "vertices": [
+                {
+                  "x": 347,
+                  "y": 456
+                }
+              ],
+              "id": "80646e2e-1eeb-40b7-85a0-068edb7ca0dc",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "authorize",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
