@@ -464,8 +464,8 @@
                 "height": 100
               },
               "position": {
-                "x": 684,
-                "y": 1
+                "x": 731,
+                "y": 4
               },
               "angle": 0,
               "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e",
@@ -690,12 +690,12 @@
               },
               "vertices": [
                 {
-                  "x": 549,
-                  "y": 189
+                  "x": 499,
+                  "y": 147
                 },
                 {
-                  "x": 718,
-                  "y": 180
+                  "x": 725,
+                  "y": 163
                 }
               ],
               "id": "4fe95a1f-bdde-428f-945e-ee67279fc0ca",
@@ -712,6 +712,139 @@
                 }
               ],
               "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e"
+              },
+              "target": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "vertices": [
+                {
+                  "x": 768,
+                  "y": 191
+                },
+                {
+                  "x": 530,
+                  "y": 201
+                }
+              ],
+              "id": "0186be89-6072-4f42-8645-6465393639ef",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "authorize",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "target": {
+                "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e"
+              },
+              "vertices": [
+                {
+                  "x": 466,
+                  "y": 115
+                },
+                {
+                  "x": 666,
+                  "y": 119
+                }
+              ],
+              "id": "56acb1c7-da42-4bb0-aeca-b2739516c55f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "amend product\ndetails",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c4d3cb8b-1845-4db3-ad29-dacd9fc2139e"
+              },
+              "target": {
+                "id": "38f3693e-13a9-4ec6-92cc-a70446779505"
+              },
+              "vertices": [
+                {
+                  "x": 685,
+                  "y": 28
+                },
+                {
+                  "x": 600,
+                  "y": 33
+                },
+                {
+                  "x": 450,
+                  "y": 51
+                }
+              ],
+              "id": "d1bc19d9-f149-47eb-9e09-554ca4f8054c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "send product details",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
