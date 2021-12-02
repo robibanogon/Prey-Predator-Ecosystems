@@ -1121,8 +1121,8 @@
               },
               "vertices": [
                 {
-                  "x": 1076,
-                  "y": 61
+                  "x": 1049,
+                  "y": 105
                 }
               ],
               "id": "2a024655-6164-4060-8f94-bc6fd2ba534f",
@@ -1134,7 +1134,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "query/update\nproduct details",
+                      "text": "request/amend\nproduct details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1416,7 +1416,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "update product\ndetails",
+                      "text": "query/update\nproduct details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1628,7 +1628,7 @@
         },
         "size": {
           "height": 2210.93798828125,
-          "width": 1118
+          "width": 1123.234619140625
         }
       }
     ]
