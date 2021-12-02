@@ -140,7 +140,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "amend product\ndetails",
+                      "text": "request/amend\nproduct details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -803,7 +803,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "amend product\ndetails",
+                      "text": "request/amend\nproduct details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1134,7 +1134,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "amend products",
+                      "text": "query/update\nproduct details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
